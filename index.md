@@ -1,37 +1,303 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/ataulhaque/hariyali/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="en">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/main.js"></script>
+    <!--added social media profiles for google business-->
+    <script type=”application/ld+json”>
+    { “@context” : “http://schema.org”,
+    “@type” : “Organization”,
+    “name” : “Har Ghar Hariyali”,
+    “url” : “https://ataulhaque.github.io/hariyali/”,
+    “sameAs” : [ “https://facebook.com/atithidevobhava”,
+    “https://twitter.com/atauldilse”,
+    "https://instagram.com/atauldilse",
+    “https://in.pinterest.com/atauldilse/”,
+    "https://www.linkedin.com/company/bssastrology/",
+    "https://www.youtube.com/use/atauldilse"]
+    }
+    </script>
+    <link rel="icon" href="image/logo.jpg" type="image/gif" sizes="16x16">
+    <meta name="google-site-verification" content="nocaMWrbAS9noBbI_54Od7lQuF1n-1tnrgka9S7_vKo" />
+    <meta name="keywords"
+        content="Home Plants, Indoor plants, House Plants, Nursery plants, Air Purifying Plants, decorative plants, Live plants, Garden Plants">
+    <meta name="description" content="Website for Har Ghar Hariyali Nursery">
+    <meta name="author" content="Ataul">
+    <title>Har Ghar Hariyali</title>
+</head>
 
-### Markdown
+<body>
+    <header class="text-gray-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="image/logo.jpg" width="64" height="64">
+                <span class="ml-3 text-xl">Har Ghar Hariyali</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900">Home</a>
+                <a href="#aboutus" class="mr-5 hover:text-gray-900">About</a>
+                <a href="#services" class="mr-5 hover:text-gray-900">Services</a>
+                <a href="https://namasteindia.info/" class="mr-5 hover:text-gray-900">Blog</a>
+                <a href="#contactus" class="mr-5 hover:text-gray-900">Contact</a>
+            </nav>
+            <button onclick="location.href='https://wa.me/919953112091';"
+                class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">Order
+                Now
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <!-- Adding the Hero Section-->
+    <section id="aboutus" class="text-gray-700 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">All Your Need For Home
+                    Gardening
+                    <br class="hidden lg:inline-block">Stops Here
+                </h1>
+                <p class="mb-8 leading-relaxed">Har Ghar Hariyali is all about plants, Decorative plants, 
+				Medicinal plants, Air purifying plants etc</p>
+                <div class="flex justify-center">
+                    <button onclick="location.href='tel:+919953112091';"
+                        class="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">Contact</button>
+                    <button onclick="location.href='https://wa.me/919953112091';"
+                        class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Consult
+                        Now</button>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero"
+                    src="https://source.unsplash.com/collection/10598839/720x600">
+            </div>
+        </div>
+    </section>
+    <!-- Closing the Hero Section-->
+    <hr>
+    <section id="services" class="text-gray-700 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Services Offered
+                </h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Har Ghar Hariyali offer their
+                    services across the country. We accept orders over the call as well as in-person so that none of their
+                    clients has to face any hassle. The services that they can offer you include the following.</p>
+            </div>
+            <div class="flex flex-wrap">
 
-```markdown
-Syntax highlighted code block
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Plants Delivery</h2>
+                    <p class="leading-relaxed text-base mb-4">We accept orders over the call as well as in-person so that none of their
+                    clients has to face any hassle.</p>
+                    <a class="text-orange-500 inline-flex items-center">Select
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                    <input type="radio" name="service" value="kundli-analysis" checked>
+                </div>
 
-# Header 1
-## Header 2
-### Header 3
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Plants Care</h2>
+                    <p class="leading-relaxed text-base mb-4">Har Ghar Hariyali also offers plant care, day to day upkeep of plants.
+					plants requirements and get the best out of plants tips and techniques.</p>
+                    <a class="text-orange-500 inline-flex items-center">Select
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                    <input type="radio" name="service" value="kundli-matching">
+                </div>
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Terrace Gardening Tips</h2>
+                    <p class="leading-relaxed text-base mb-4">Suggestions to beautify your terrace with suggestions for live plants 
+					which can be grown on terrace without worry.</p>
+                    <a class="text-orange-500 inline-flex items-center">Select
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                    <input type="radio" name="service" value="palm-reading">
+                </div>
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Plants Decoration Ideas</h2>
+                    <p class="leading-relaxed text-base mb-4">All kinds of imagery as well as video suggestions, tips and ideas
+					for a beautiful decorative ideas for your lawn, balcony, windows, living room, bedroom to your dining table.</p>
+                    <a class="text-orange-500 inline-flex items-center">Select
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                    <input type="radio" name="service" value="Plants-Delivery">
+                </div>
+            </div>
+            <button id="book-btn"
+                class="flex mx-auto mt-16 text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg"
+                onclick="bookconsultation()">Order
+                Plants</button>
+        </div>
+    </section>
+    <hr>
+    <!--Adding the Testimonial Block-->
 
-- Bulleted
-- List
+    <section class="text-gray-700 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="image/testimonial1.png">
+                        <p class="leading-relaxed">Very professional in handling and delivery of live plants </p>
+                        <span class="inline-block h-1 w-10 rounded bg-orange-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Albert Chen</h2>
+                        <p class="text-gray-500">Vancouver,Canada</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="image/testimonial2.png">
+                        <p class="leading-relaxed">Plants reached in live and healthy condition,
+						very satisfied with the plant condition and delivery.
+                        </p>
+                        <span class="inline-block h-1 w-10 rounded bg-orange-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Manoj Shukla</h2>
+                        <p class="text-gray-500">Jharsuguda,IN</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="image/testimonial3.png">
+                        <p class="leading-relaxed">I had ordered planters, all the planters got delivered on-time
+						and exactly what was shown and mentioned on the site Thanks a lot !</p>
+                        <span class="inline-block h-1 w-10 rounded bg-orange-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Shalini Mehra</h2>
+                        <p class="text-gray-500">Punjab,IN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of the Testimonial Block-->
+    <hr>
+    <!--Start of Contact Us Block-->
+    <section id="contactus" class="text-gray-700 body-font relative">
+        <div class="container px-5 py-24 mx-auto flex sm:flex-no-wrap flex-wrap">
+            <div
+                class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0"
+                    marginwidth="0" scrolling="no"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.281646508304!2d77.37012681474692!3d28.531252982457815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce61b861859b1%3A0xfe4891fa1b7e30b6!2sBSS%20Astrology%20Services!5e0!3m2!1sen!2sin!4v1591159416965!5m2!1sen!2sin&output=embed"
+                    style="filter: rgb(0) contrast(1.2) opacity(0.4);"></iframe>
+                <div class="bg-white relative flex flex-wrap py-6">
+                    <div class="lg:w-1/2 px-6">
+                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">ADDRESS</h2>
+                        <p class="leading-relaxed"><a href="https://goo.gl/maps/hLGb2oZDPveL6Sfj7">Har Ghar Hariyali,
+                                Belpahar</a></p>
+                        <p class="leading-relaxed">Jharsuguda, Odisha, IN</p>
+                    </div>
+                    <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">EMAIL</h2>
+                        <a href="mailto:atauldilse@gmail.com"
+                            class="text-orange-500 leading-relaxed">atauldilse@gmail.com</a>
+                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mt-4">PHONE</h2>
+                        <p class="leading-relaxed"><a href="tel:+91-9953112091">+91-99531-12091</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Contact us</h2>
+                <input id="user_name"
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4"
+                    placeholder="Name" type="text">
+                <input id="user_email"
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4"
+                    placeholder="Email" type="email">
+                <textarea id="user_message"
+                    class="bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-orange-500 text-base px-4 py-2 mb-4 resize-none"
+                    placeholder="Message"></textarea>
+                <button id="btn_send"
+                    class="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg"
+                    onclick="senddetails()">Send</button>
+                <p class="text-xs text-gray-500 mt-3"></p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!--End of Contact Us Block-->
+    <footer class="text-gray-700 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
 
-1. Numbered
-2. List
+                <!--                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path> -->
+                <path d=""></path>
+                <img src="image/logo.jpg" width="64" height="64">
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ataulhaque/hariyali/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+                <span class="ml-3 text-xl">Har Ghar Hariyali</span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+                2020
+                Har Ghar Hariyali —
+                Made with ❤️ by<a href="https://twitter.com/atauldilse" class="text-gray-600 ml-1"
+                    rel="noopener noreferrer" target="_blank">@atauldilse</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <a href="https://facebook.com/atithidevobhava" target="_blank">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </a>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <a href="https://twitter.com/atauldilse" target="_blank">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </a>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <a href="https://instagram.com/atauldilse" target="_blank">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </a>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <a href="https://www.linkedin.com/in/ataulhaque/" target="_blank">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </a>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
